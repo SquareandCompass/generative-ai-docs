@@ -25,7 +25,7 @@ uuid = "^1.30"
 [tool.poetry.group.dev.dependencies]
 ipython = "^8.13.2"
 pylint = "^2.17.4"
-black = "^23.3.0"
+black = "^24.3.0"
 
 [tool.poetry.group.internal]
 optional = true
@@ -35,7 +35,7 @@ seqio = "^0.0.16"
 
 [tool.poetry.group.chatbot.dependencies]
 flask = "^2.3.2"
-flask-cors = "^3.0.10"
+flask-cors = "^4.0.1"
 
 [build-system]
 requires = ["poetry-core"]
